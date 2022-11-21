@@ -7,12 +7,12 @@ Questo progetto mi permetterebbe di testare le conoscenze che ho acquisito duran
 
 V1: 
 Pagina principale costituita da:
-HOME - panoramica della palestra
-CHI SIAMO - panoramica sui diversi allenatori con la possibilità di accedere alla pagina personale di ciascuno di essi in modo da entrare nel dettaglio delle singole specializzazioni
-SERVIZI - panoramica sui servizi offerti e calendario degli allenamenti
-CONTATTI - posizione, contatti, social
-EVENTI - eventi organizzati dalla palestra
-LOGIN - da parte del cliente
+HOME (panoramica della palestra)
+CHI SIAMO (panoramica sui diversi allenatori con la possibilità di accedere alla pagina personale di ciascuno di essi in modo da entrare nel dettaglio delle singole specializzazioni)
+SERVIZI (panoramica sui servizi offerti e calendario degli allenamenti)
+CONTATTI (posizione, contatti, social)
+EVENTI (eventi organizzati dalla palestra)
+LOGIN (da parte del cliente)
 
 V2:
 possibilità, da parte del cliente, di effettuare richieste ai singoli allenatori, richieste di schede personalizzate, esposizione di una problematica.
