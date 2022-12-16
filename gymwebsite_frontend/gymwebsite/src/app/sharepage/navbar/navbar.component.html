@@ -1,0 +1,29 @@
+
+<ul id="navbar" ngbNav #nav="ngbNav" [activeId]="1" class="nav-tabs justify-content-center">
+	<li [ngbNavItem]="1">
+		<a ngbNavLink routerLink=""><b>W.I.P. </b>Wellness In Progress</a>
+	</li>
+	<li ngbDropdown class="nav-item" [ngbNavItem]="2">
+		<a href (click)="false" class="nav-link" ngbDropdownToggle ngbNavLink routerLink="chi-siamo">Chi Siamo</a>
+        <div ngbDropdownMenu>
+			<button routerLink="claudio" ngbDropdownItem>Claudio</button>
+			<button routerLink="alessandro" ngbDropdownItem>Alessandro</button>
+			<button routerLink="francesca" ngbDropdownItem>Francesca</button>
+            <button routerLink="michele" ngbDropdownItem>Michele</button>
+		</div>
+	</li>
+    <li [ngbNavItem]="3">
+		<a ngbNavLink routerLink="servizi">Servizi</a>
+	</li>
+    <li [ngbNavItem]="4">
+		<a ngbNavLink routerLink="contatti">Contatti</a>
+	</li>
+    <li [ngbNavItem]="5">
+		<a ngbNavLink routerLink="diete">Diete</a>
+	</li>
+    <li [ngbNavItem]="6">
+		<a ngbNavLink routerLink="log-in">Log In</a>
+	</li>
+</ul>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>

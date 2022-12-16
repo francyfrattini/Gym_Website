@@ -1,0 +1,50 @@
+
+#container-chi-siamo{
+    align-items: center;
+}
+
+#card-chi-siamo{
+    background-color: var(--grigio-card);
+    color: rgb(230, 230, 230);
+}
+
+#btn-chi-siamo{
+    background-color: var(--giallo-trasp);
+    box-shadow: 2px 2px 4px black;
+}
+
+#btn-chi-siamo:hover{
+    color:black;
+    background-color: var(--giallo);
+}
+
+#btn-chi-siamo-2{
+    margin-top: 15px;
+    color:var(--giallo);
+    box-shadow: 2px 2px 4px black;
+}
+
+#testo-card{
+    margin-top: 160px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#card-alessandro{
+    text-align: center;
+}
+
+/*------------------------------ANIMAZIONE----------------------------*/
+
+#card-chi-siamo {
+    animation-name: animazione1;
+    animation-duration: 2s;
+}
+
+@keyframes animazione1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}

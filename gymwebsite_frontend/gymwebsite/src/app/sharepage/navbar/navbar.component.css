@@ -1,0 +1,54 @@
+
+#navbar{
+    background-color:var(--giallo-trasp);
+    border:none;
+}
+
+.ngbNavItem{
+background-color: black;
+}
+
+#ngb-nav-0.nav-link.active, 
+#ngb-nav-1.nav-link.active,
+#ngb-nav-2.nav-link.active,
+#ngb-nav-3.nav-link.active,
+#ngb-nav-4.nav-link.active,
+#ngb-nav-5.nav-link.active
+{
+    background-color:black;
+    color:var(--giallo);
+    border:none;
+}
+
+div.dropdown-menu.show{
+    background-color:black;
+    border:none;
+}
+
+button.dropdown-item{
+    color:var(--giallo);
+}
+
+button.dropdown-item:hover{
+    color:black;
+    background-color:var(--giallo-trasp);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+    background-color:black;
+    color:var(--giallo);
+    border:none;
+}
+
+.nav-link:hover{
+    background-color:black;
+    color:var(--giallo);
+    border:none;
+}
+
+li a{
+    color: black;
+    border:none;
+}

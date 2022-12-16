@@ -1,0 +1,86 @@
+
+.card-title{
+    color: var(--bianco-trasp);
+}
+
+#contatti-allenatori{
+    margin-top: 40px;
+}
+
+#card-allenatori{
+    background-color: rgb(27, 27, 27);
+    border: none;
+    color: white;
+}
+
+#card-personal{
+    align-items: center;
+}
+
+#email-allenatori{
+    color: white;
+}
+
+#email-allenatori:hover{
+    color: var(--giallo-trasp);
+}
+
+#container-servizi{
+    align-content: center;
+}
+
+#card-servizi{
+    background-color: transparent;
+    border: none;
+}
+
+.card-img-servizi{
+    opacity: 20%;
+}
+
+h6{
+    font-size: 12px;
+    margin-top: -40px;
+    text-align: center;
+    color: var(--bianco-trasp);
+}
+
+h6:hover{
+    font-size: 12px;
+    margin-top: -40px;
+    text-align: center;
+    color: white;
+}
+
+/*------------------------------ANIMAZIONE----------------------------*/
+
+#card-personal{
+    animation-name: animazione1;
+    animation-duration: 2s;
+}
+
+@keyframes animazione1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}
+
+#card-servizi:hover{
+    animation-name: animazione2;
+    animation-duration: 0.5s;
+}
+
+@keyframes animazione2 {
+    0% {
+        transform: scale(1, 1);
+      }
+      50% {
+        transform: scale(1.5, 1.5);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+}
