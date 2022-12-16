@@ -11,12 +11,6 @@ Pagina principale costituita da:
 - CHI SIAMO - panoramica sui diversi allenatori con la possibilità di accedere alla pagina personale di ciascuno di essi in modo da entrare nel dettaglio delle singole specializzazioni
 - SERVIZI - panoramica sui servizi offerti e calendario degli allenamenti
 - CONTATTI - posizione, contatti, social
-- EVENTI - eventi organizzati dalla palestra
+- DIETE - visualizzazione di ricette random
 - LOGIN - da parte del cliente
 
-V2:
-possibilità, da parte del cliente, di effettuare richieste ai singoli allenatori, richieste di schede personalizzate, esposizione di una problematica.
-
-V3:
-Conseguente possibilità di autenticazione da parte dell'allenatore per rispondere alle richieste.
-Possibilità di pagamento online di corsi/servizi/allenamenti.
