@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+import { MbscModule } from '@mobiscroll/angular';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,10 +14,12 @@ import { AlessandroComponent } from './pages/alessandro/alessandro.component';
 import { ClaudioComponent } from './pages/claudio/claudio.component';
 import { FrancescaComponent } from './pages/francesca/francesca.component';
 import { MicheleComponent } from './pages/michele/michele.component';
-import { DieteComponent } from './pages/diete/diete.component';
+import { DieteComponent } from './pages/Calendario/diete.component';
 import { NavbarComponent } from './sharepage/navbar/navbar.component';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
+import { SignupComponent } from './pages/signup/signup.component';
+
 
 @NgModule({
     declarations: [
@@ -32,16 +35,21 @@ import { HttpClientModule } from '@angular/common/http';
         ClaudioComponent,
         FrancescaComponent,
         MicheleComponent,
-        DieteComponent,
+        SignupComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],
-    imports: [
+    imports: [ 
+    MbscModule,
         BrowserModule,
         AppRoutingModule,
         NgbModule,
         FormsModule,
-        HttpClientModule
-    ]
+        HttpClientModule,
+        ReactiveFormsModule,
+        HttpClientJsonpModule,
+        BrowserModule,
+    ],
+    schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }

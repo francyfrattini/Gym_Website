@@ -1,10 +1,5 @@
-#titoli-form, #registrati{
+#titoli-form{
     color: var(--giallo-trasp);
-    text-decoration: none;
-}
-
-#registrati:hover{
-    text-decoration: underline;
 }
 
 #bottone-form{

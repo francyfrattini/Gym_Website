@@ -4,12 +4,13 @@ import { AlessandroComponent } from './pages/alessandro/alessandro.component';
 import { ChiSiamoComponent } from './pages/chi-siamo/chi-siamo.component';
 import { ClaudioComponent } from './pages/claudio/claudio.component';
 import { ContattiComponent } from './pages/contatti/contatti.component';
-import { DieteComponent } from './pages/diete/diete.component';
+import { DieteComponent } from './pages/Calendario/diete.component';
 import { FrancescaComponent } from './pages/francesca/francesca.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LogInComponent } from './pages/log-in/log-in.component';
 import { MicheleComponent } from './pages/michele/michele.component';
 import { ServiziComponent } from './pages/servizi/servizi.component';
+import { SignupComponent } from './pages/signup/signup.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path:'claudio', component:ClaudioComponent},
   {path:'francesca', component:FrancescaComponent},
   {path:'michele', component:MicheleComponent},
+  {path:'signup', component:SignupComponent},
 ];
 
 @NgModule({

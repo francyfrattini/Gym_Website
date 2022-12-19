@@ -1,0 +1,75 @@
+<!----------------------------------- REGISTER -------------------------------------->
+
+<div id="container-form" class="container col-md-6">
+
+    <h1 id="titoli-form" class="mb-5">Registrati!</h1>
+
+    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+
+        <div class="mb-3">
+            <label id="titoli-form" for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Nome">
+        </div>
+
+        <div class="mb-3">
+            <label id="titoli-form" for="exampleFormControlInput1" class="form-label">Cognome</label>
+            <input type="text" class="form-control" id="surname" name="surname" placeholder="Cognome">
+        </div>
+
+        <!--<div class="mb-3">
+            <label id="titoli-form" for="exampleFormControlInput1" class="form-label">Sesso</label>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Uomo
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Donna
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                <label class="form-check-label" for="flexRadioDefault3">
+                  Preferisco non rispondere
+                </label>
+              </div>
+            </div>-->
+
+        <div class="mb-3">
+            <label id="titoli-form" for="exampleFormControlInput1" class="form-label">Telefono</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">+39</span>
+                <input id="phone" type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label id="titoli-form" for="exampleFormControlInput1" class="form-label">Indirizzo e-mail</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+        </div>
+
+        <div class="mb-1">
+            <label id="titoli-form" for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div>
+                <input [type]="type" class="form-control" id="password" placeholder="Inserisci una password">
+                <!--<span id="titoli-form" (click)="hideShowPass()" class="bi {{eyeIcon}}"></span>-->
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <label id="titoli-form" for="inputPassword" class="col-sm-2 col-form-label">Conferma password</label>
+            <div>
+                <input type="password" class="form-control" id="cpassword" placeholder="Conferma la tua password">
+                <!--<span id="titoli-form" (click)="hideShowPass()" class="bi {{eyeIcon}}"></span>-->
+            </div>
+        </div>
+
+        <button id="bottone-form"  type="submit" class="btn">Registrami</button>
+
+    </form>
+
+</div>
