@@ -42,7 +42,7 @@ export class LogInComponent implements OnInit {
     if(user){
       alert("E' un piacere rivederti !");
       this.loginForm.reset();
-      this.router.navigate(['/diete']);
+      this.router.navigate(['/calendario']);
     }else{
       alert("Spiacenti, utente non trovato")
     }

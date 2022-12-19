@@ -1,0 +1,14 @@
+{
+  "signup": [
+    {
+      "name": "",
+      "surname": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "id": 1
+    }
+  ],
+  "login": []
+}

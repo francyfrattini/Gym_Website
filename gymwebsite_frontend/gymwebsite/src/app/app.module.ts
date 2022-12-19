@@ -14,11 +14,13 @@ import { AlessandroComponent } from './pages/alessandro/alessandro.component';
 import { ClaudioComponent } from './pages/claudio/claudio.component';
 import { FrancescaComponent } from './pages/francesca/francesca.component';
 import { MicheleComponent } from './pages/michele/michele.component';
-import { DieteComponent } from './pages/Calendario/diete.component';
+import { DieteComponent } from './pages/calendario/diete.component';
 import { NavbarComponent } from './sharepage/navbar/navbar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { SignupComponent } from './pages/signup/signup.component';
+import { CalendarioComponent } from './pages/calendario/calendario.component';
+import { CalendarionologComponent } from './pages/calendarionolog/calendarionolog.component';
 
 
 @NgModule({
@@ -36,6 +38,8 @@ import { SignupComponent } from './pages/signup/signup.component';
         FrancescaComponent,
         MicheleComponent,
         SignupComponent,
+        CalendarioComponent,
+        CalendarionologComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],
