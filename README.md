@@ -11,6 +11,6 @@ La struttura e le funzionalità del sito saranno le seguenti:
 - CHI SIAMO - panoramica sui diversi allenatori con la possibilità di accedere alla pagina personale di ciascuno di essi in modo da entrare nel dettaglio delle singole specializzazioni
 - SERVIZI - panoramica sui servizi offerti e calendario degli allenamenti
 - CONTATTI - posizione, contatti, social
-- DIETE - visualizzazione di ricette random
+- CALENDARIO - prenotazione allenamenti una volta effettuato il login
 - LOGIN - da parte del cliente
 
