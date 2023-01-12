@@ -20,3 +20,26 @@ Implementazioni in corso per l'ALLENATORE:
 - possibilità di modifica del proprio profilo
 - possibilità di rispondere alle richieste dei clienti
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A gym website that can be implemented in different stages with increasing difficulty. 
+This project allowed me to test the knowledge I acquired during the course through an environment I am passionate about, namely that of sports.
+
+The structure and functionality of the site will be as follows:
+
+- HOME - overview of the gymnasium
+- ABOUT US - overview of the different coaches with the possibility to access the personal page of each of them so as to go into the details of individual specializations
+- SERVICES - overview of services offered and calendar of workouts
+- CONTACTS - location, contacts, social
+- CALENDAR - booking of workouts once logged in
+- LOGIN - by the client
+
+Ongoing implementations for the CUSTOMER:
+- ability to make requests to the coach
+
+Ongoing implementations for the COACH:
+- LOGIN 
+- possibility of editing one's profile
+- ability to respond to customer requests
+
+
