@@ -20,6 +20,8 @@ Implementazioni in corso per l'ALLENATORE:
 - possibilità di modifica del proprio profilo
 - possibilità di rispondere alle richieste dei clienti
 
+![Preview](https://user-images.githubusercontent.com/107913694/212663022-2e8af99b-9de5-4aa8-b6bf-617690c6f4ad.png)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 A gym website that can be implemented in different stages with increasing difficulty. 
@@ -42,4 +44,5 @@ Ongoing implementations for the COACH:
 - possibility of editing one's profile
 - ability to respond to customer requests
 
+![Preview](https://user-images.githubusercontent.com/107913694/212663039-62c4e8b9-004a-467a-9d25-2812782580af.png)
 
