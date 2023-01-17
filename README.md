@@ -1,6 +1,7 @@
 # Capstone-Project
 
-Sito web di una palestra che può essere implementato in diverse fasi con crescente difficoltà. 
+Sito web di una palestra che può essere implementato in diverse fasi con crescente difficoltà. <br>
+Realizzato con ```ANGULAR``` e ```SPRINGBOOT```. <br>
 Questo progetto mi ha permesso di testare le conoscenze che ho acquisito durante il corso attraverso un ambiente che mi appassiona, ovvero quello dello sport.
 
 La struttura e le funzionalità del sito saranno le seguenti:
@@ -24,7 +25,8 @@ Implementazioni in corso per l'ALLENATORE:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-A gym website that can be implemented in different stages with increasing difficulty. 
+A gym website that can be implemented in different stages with increasing difficulty. <br>
+Created with ```ANGULAR``` and ```SPRINGBOOT```. <br>
 This project allowed me to test the knowledge I acquired during the course through an environment I am passionate about, namely that of sports.
 
 The structure and functionality of the site will be as follows:
